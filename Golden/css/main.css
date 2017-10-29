@@ -1,0 +1,330 @@
+html,body,#cover{
+	height: 100%;
+}
+/*Section Cover*/
+#cover{
+	background: url('../images/mainBg.jpg') no-repeat center center fixed;
+	background-size: cover;/*Resmi Tam Ekran Yapıyor*/
+	-webkit-background-size: cover;/*Farklı tarayıcılarda desteklemesi için*/
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.fixed-top{
+	max-width: 1140px;
+	margin: 20px auto;/*20px üst ve alt auto ise sağ ve sol*/
+}
+h1{
+	margin-top: 20%;
+	font-family: 'Droid Serif', serif;
+	color: #ffffff;
+	font-size: 40px;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-size: 75px;
+	font-weight:700;
+	margin-bottom: 30px;
+}
+.btn-primary{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 18px;
+	background-color: #fed136;
+	border-style: none;
+	text-transform: uppercase;
+	padding: 20px 40px;
+}
+.btn-primary:hover{
+	background-color: #ffffff;
+	color: #fed136;
+}
+a.nav-link{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	color:white !important;
+	transition: color 0.5s ease;
+	-webkit-transition: color 0.5s ease;
+	-moz-transition: color 0.5s ease;
+	-o-transition: color 0.5s ease;
+	/*important=hazır kütüphanelerde değiştirilmesi istenmeyen kodlar olabilir
+	biz bu kodun yanına !important yazarsak bizim kodumuz geçerli olur.
+	*/
+}
+a.nav-link:hover{
+	color: #fed136 !important;
+}
+/*Section Services*/
+#services{
+	padding: 120px 0;
+}
+.services-top h3{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 40px;
+	font-weight: 700;;
+}
+.services-top p{
+	font-family: 'Droid Serif', serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #777;
+	margin-bottom: 80px;
+}
+.item-circle{
+	border:3px solid #fed136;
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+	margin:0 auto;
+}
+.item-circle i{
+	color: #fed136;
+	line-height: 100px;
+}
+.services-content h4{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #222;
+	margin-top: 25px;
+}
+.services-content p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #777;
+}
+/*PORTFOLİO*/
+#portfolio{
+	background-color: #f7f7f7;
+	padding-top: 120px;
+	padding-bottom: 70px;
+}
+.portfolio-top h3{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 40px;
+	font-weight: 700;;
+}
+.portfolio-top p{
+	font-family: 'Droid Serif', serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #777;
+	margin-bottom: 80px;
+}
+.card{border-style: none;}
+.portfolio-content .row{
+	margin-bottom: 50px;
+}
+.portfolio-content .card-title{
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+.portfolio-content .card-subtitle{
+	font-family: 'Droid Serif', serif;
+	font-size: 14px;
+	font-style: italic;
+}
+.aboutus-top h3{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 40px;
+	font-weight: 700;;
+}
+.aboutus-top p{
+	font-family: 'Droid Serif', serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #777;
+	margin-bottom: 80px;
+}
+#aboutus{
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+.aboutus-content .row{
+	margin-bottom: 90px;
+}
+.aboutus-content h4{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+.aboutus-content p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #777;
+}
+.aboutus-content{
+	position: relative;
+}
+.aboutus-content::before{
+	top: 0;
+	bottom:0;
+	content: " ";
+	width: 4px;
+	background-color: #f1f1f1;
+	position: absolute;
+	left: 50%;
+	margin-left: -2px;
+	
+}
+.about-circle{
+	position: relative;
+	text-align: center;
+}
+.about-circle::before{
+	position: absolute;
+	background-color: #fed136;
+	content: "";
+	width: 176px;
+	height: 176px;
+	border-radius: 50%;
+	border:6px solid #f1f1f1;
+	left: 50%;
+	margin-left: -91px;
+}
+.yellow-text
+{
+	position: relative;
+	z-index: 2;
+	padding-top: 40px;
+	font-family: 'Montserrat',sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff !important;
+}
+#team{
+	padding-top: 120px;
+	background-color: #f9f9f9;
+}
+.team-top h3{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 40px;
+	font-weight: 700;;
+}
+.team-top p{
+	font-family: 'Droid Serif', serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #777;
+	margin-bottom: 80px;
+}
+.team-circle{
+	width: 220px;
+	height: 220px;
+	background-color: #000;
+	border-radius: 50%;
+	margin: 0 auto;
+	border:6px solid #fff;
+	margin-bottom: 20px;
+}
+.team-content h4{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 16px;
+	font-weight: 700;;
+}
+.team-content h5{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #777;
+}
+.social-icons{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.social-icon{
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.social-icon .fa{
+	border:2px solid #000;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	line-height: 26px;
+}
+.team-content p{
+	margin: 50px auto;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	color: #777;
+}
+#partner{
+	padding: 60px;
+}
+#contact{
+	background: url('../images/contactBg.jpg') no-repeat center center fixed;
+	background-size: cover;/*Resmi Tam Ekran Yapıyor*/
+	-webkit-background-size: cover;/*Farklı tarayıcılarda desteklemesi için*/
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 120px 0;
+}
+.contact-top h3{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+}
+.contact-top p{
+	font-family: 'Droid Serif', serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #777;
+	margin-bottom: 80px;
+}
+#name,#email,#subject{
+	width: 90%;
+	height: 50px;
+	margin-bottom: 25px;
+	border-style: none;
+	border-radius: 3px;
+	padding-left: 20px;
+	margin-left: 5%;
+}
+textarea{
+	width: 90%;
+	height: 200px;
+	border-style: none;
+	border-radius: 3px;
+	padding-left: 20px;
+	padding-top: 15px;
+	margin-left: 5%;
+}
+.golden-form-element{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+#footer{
+	padding: 20px 0;
+}
+#footer p{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #555555;
+	line-height: 40px;
+}
+.company-social-icons{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.company-social-icon{
+	display: inline-block;
+	padding-left: 9px;
+	padding-right: 9px;
+	color: #fff;
+}
+.company-social-icon .fa{
+	width: 40px;
+	height: 40px;
+	background-color: #000;
+	border-radius: 50%;
+	line-height: 40px;
+}
